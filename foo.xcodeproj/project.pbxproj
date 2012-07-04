@@ -20,6 +20,14 @@
 		F81A256515A2790B0043F3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81A254615A2790A0043F3D3 /* Foundation.framework */; };
 		F81A256D15A2790B0043F3D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F81A256B15A2790B0043F3D3 /* InfoPlist.strings */; };
 		F81A257015A2790B0043F3D3 /* fooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F81A256F15A2790B0043F3D3 /* fooTests.m */; };
+		F81A257B15A27B050043F3D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F81A255015A2790B0043F3D3 /* main.m */; };
+		F81A257C15A27B050043F3D3 /* QGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F81A255415A2790B0043F3D3 /* QGLAppDelegate.m */; };
+		F81A257D15A27B050043F3D3 /* QGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81A255715A2790B0043F3D3 /* QGLViewController.m */; };
+		F81A257F15A27B050043F3D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81A254415A2790A0043F3D3 /* UIKit.framework */; };
+		F81A258015A27B050043F3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81A254615A2790A0043F3D3 /* Foundation.framework */; };
+		F81A258115A27B050043F3D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81A254815A2790A0043F3D3 /* CoreGraphics.framework */; };
+		F81A258315A27B050043F3D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F81A254D15A2790B0043F3D3 /* InfoPlist.strings */; };
+		F81A258415A27B050043F3D3 /* QGLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F81A255915A2790B0043F3D3 /* QGLViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +45,23 @@
 		F81A254415A2790A0043F3D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F81A254615A2790A0043F3D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F81A254815A2790A0043F3D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F81A254C15A2790B0043F3D3 /* foo-Info.plist */ = {isa = PBXFileReference; path = "foo-Info.plist"; sourceTree = "<group>"; };
+		F81A254C15A2790B0043F3D3 /* foo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "foo-Info.plist"; sourceTree = "<group>"; };
 		F81A254E15A2790B0043F3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F81A255015A2790B0043F3D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F81A255215A2790B0043F3D3 /* foo-Prefix.pch */ = {isa = PBXFileReference; path = "foo-Prefix.pch"; sourceTree = "<group>"; };
-		F81A255315A2790B0043F3D3 /* QGLAppDelegate.h */ = {isa = PBXFileReference; path = QGLAppDelegate.h; sourceTree = "<group>"; };
+		F81A255215A2790B0043F3D3 /* foo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "foo-Prefix.pch"; sourceTree = "<group>"; };
+		F81A255315A2790B0043F3D3 /* QGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGLAppDelegate.h; sourceTree = "<group>"; };
 		F81A255415A2790B0043F3D3 /* QGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGLAppDelegate.m; sourceTree = "<group>"; };
-		F81A255615A2790B0043F3D3 /* QGLViewController.h */ = {isa = PBXFileReference; path = QGLViewController.h; sourceTree = "<group>"; };
+		F81A255615A2790B0043F3D3 /* QGLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGLViewController.h; sourceTree = "<group>"; };
 		F81A255715A2790B0043F3D3 /* QGLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGLViewController.m; sourceTree = "<group>"; };
 		F81A255A15A2790B0043F3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QGLViewController.xib; sourceTree = "<group>"; };
 		F81A256115A2790B0043F3D3 /* fooTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fooTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81A256215A2790B0043F3D3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F81A256A15A2790B0043F3D3 /* fooTests-Info.plist */ = {isa = PBXFileReference; path = "fooTests-Info.plist"; sourceTree = "<group>"; };
+		F81A256A15A2790B0043F3D3 /* fooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fooTests-Info.plist"; sourceTree = "<group>"; };
 		F81A256C15A2790B0043F3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F81A256E15A2790B0043F3D3 /* fooTests.h */ = {isa = PBXFileReference; path = fooTests.h; sourceTree = "<group>"; };
+		F81A256E15A2790B0043F3D3 /* fooTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fooTests.h; sourceTree = "<group>"; };
 		F81A256F15A2790B0043F3D3 /* fooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fooTests.m; sourceTree = "<group>"; };
+		F81A258815A27B050043F3D3 /* foo lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "foo lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81A258A15A27B050043F3D3 /* foo lite.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "foo lite.plist"; path = "/Users/Agassi/Developer/foo/foo lite.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F81A257E15A27B050043F3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81A257F15A27B050043F3D3 /* UIKit.framework in Frameworks */,
+				F81A258015A27B050043F3D3 /* Foundation.framework in Frameworks */,
+				F81A258115A27B050043F3D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +105,7 @@
 				F81A256815A2790B0043F3D3 /* fooTests */,
 				F81A254315A2790A0043F3D3 /* Frameworks */,
 				F81A254115A2790A0043F3D3 /* Products */,
+				F81A258A15A27B050043F3D3 /* foo lite.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +114,7 @@
 			children = (
 				F81A254015A2790A0043F3D3 /* foo.app */,
 				F81A256115A2790B0043F3D3 /* fooTests.octest */,
+				F81A258815A27B050043F3D3 /* foo lite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +212,23 @@
 			productReference = F81A256115A2790B0043F3D3 /* fooTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		F81A257915A27B050043F3D3 /* foo lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81A258515A27B050043F3D3 /* Build configuration list for PBXNativeTarget "foo lite" */;
+			buildPhases = (
+				F81A257A15A27B050043F3D3 /* Sources */,
+				F81A257E15A27B050043F3D3 /* Frameworks */,
+				F81A258215A27B050043F3D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "foo lite";
+			productName = foo;
+			productReference = F81A258815A27B050043F3D3 /* foo lite.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,6 +252,7 @@
 			targets = (
 				F81A253F15A2790A0043F3D3 /* foo */,
 				F81A256015A2790B0043F3D3 /* fooTests */,
+				F81A257915A27B050043F3D3 /* foo lite */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +272,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F81A256D15A2790B0043F3D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81A258215A27B050043F3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81A258315A27B050043F3D3 /* InfoPlist.strings in Resources */,
+				F81A258415A27B050043F3D3 /* QGLViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +318,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F81A257015A2790B0043F3D3 /* fooTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81A257A15A27B050043F3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81A257B15A27B050043F3D3 /* main.m in Sources */,
+				F81A257C15A27B050043F3D3 /* QGLAppDelegate.m in Sources */,
+				F81A257D15A27B050043F3D3 /* QGLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +419,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "foo/foo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					PRO,
+				);
 				INFOPLIST_FILE = "foo/foo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -371,6 +434,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "foo/foo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = PRO;
 				INFOPLIST_FILE = "foo/foo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -411,6 +475,33 @@
 			};
 			name = Release;
 		};
+		F81A258615A27B050043F3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "foo/foo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					LITE,
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "foo lite.plist";
+				PRODUCT_NAME = "foo lite";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F81A258715A27B050043F3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "foo/foo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = LITE;
+				INFOPLIST_FILE = "foo lite.plist";
+				PRODUCT_NAME = "foo lite";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,6 +521,7 @@
 				F81A257515A2790B0043F3D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F81A257615A2790B0043F3D3 /* Build configuration list for PBXNativeTarget "fooTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +530,16 @@
 				F81A257815A2790B0043F3D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81A258515A27B050043F3D3 /* Build configuration list for PBXNativeTarget "foo lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81A258615A27B050043F3D3 /* Debug */,
+				F81A258715A27B050043F3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
